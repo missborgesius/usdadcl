@@ -1,5 +1,7 @@
 connection: "bq_usda"
 
+#arbitrary file change
+
 # include all the views
 include: "*.view"
 
