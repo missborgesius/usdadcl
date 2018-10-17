@@ -117,6 +117,7 @@ view: all_markets {
   }
 
   dimension: location_city{
+#    label: "location_city_label"
     type: string
     sql: ${TABLE}.hq_city ;;
   }
@@ -159,6 +160,7 @@ view: all_markets {
   }
 
   dimension: location {
+    label: "location"
     type: location
     sql_latitude: ${sql_lat} ;;
     sql_longitude: ${sql_lon} ;;
