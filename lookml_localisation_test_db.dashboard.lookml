@@ -2,7 +2,7 @@
   title: Lookml Localisation Test Db
   layout: newspaper
   elements:
-  - title: This is the Title
+  - title: "Location"
     name: This is the Title
     model: usda
     explore: all_markets
